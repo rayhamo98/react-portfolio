@@ -1,33 +1,44 @@
-# React + TypeScript + Vite
+# README generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](<(https://opensource.org/licenses/Apache-2.0)>)
 
-Currently, two official plugins are available:
+## Description
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+This project was driven by the need to create a professional online portfolio that highlights my skills and work to potential employers, clients, and collaborators. I set out to develop a user-friendly platform where visitors can discover more about me, browse my projects, and easily reach out for inquiries. This portfolio not only showcases my work but also serves as a practical application of my React.js skills, allowing me to refine my abilities in building dynamic, single-page applications.
 
-## Expanding the ESLint configuration
+## Table of contents
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+[installation](#installation)  
+[usage](#usage)  
+[contribution](#contribution)  
+[test](#test)  
+[github](#github)  
+[email](#email)  
+[license](#license)
 
-* Configure the top-level `parserOptions` property as follows:
+## installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+You can download it from my Github repository.
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## usage
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+- Navigate through the application using the menu.
+- Visit the About Me page to learn more about my background and experiences.
+- Explore the Projects page, where you can click on any project to view detailed information or access the deployed application and GitHub repository.
+- Go to the Contact Me page to interact with the contact form.
+- Check out the Resume page to download my resume.
+
+## video walk though
+
+
+## github
+
+[rayhamo98](https://github.com/rayhamo98)
+
+## email
+
+rimonhamo@yahoo.com
+
+## license
+
+This project is licensed under the Apache License 2.0 license.
