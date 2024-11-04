@@ -1,13 +1,13 @@
 import { Outlet } from 'react-router-dom';
-import Nav from './components/Nav';
+import Header from './components/Header/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <Nav />
-      <main>
-        <Outlet />
-      </main>
+      <Header /> {/* Displays the developer's name and navigation menu */}
+      <Outlet /> {/* Displays the content of the current page */}
+      <Footer /> {/* Displays links to the developer's profiles */}
     </>
   );
 }
